@@ -3,7 +3,7 @@ version: "3.5"
 services:
   mongo-unsecure:
     container_name: mongo-unsecure
-    image: mongo:4.2
+    image: mongo:4.4
     ports:
       - 37027:27017
     command: mongod

@@ -2,16 +2,16 @@ db.customers.bulkWrite([
     {
         insertOne: {
             document: {
-                _id: "eko",
-                full_name: "Eko"
+                _id: "ipang",
+                full_name: "ipang"
             }
         }
     },
     {
         insertOne: {
             document: {
-                _id: "kurniawan",
-                full_name: "Kurniawan"
+                _id: "rifkan",
+                full_name: "rifkan"
             }
         }
     },
@@ -19,12 +19,12 @@ db.customers.bulkWrite([
         updateMany: {
             filter: {
                 _id: {
-                    $in: ["eko", "kurniawan", "khannedy"]
+                    $in: ["moh", "rifkan", "goggxi"]
                 }
             },
             update: {
                 $set: {
-                    full_name: "Eko Kurniawan Khannedy"
+                    full_name: "Moh Rifkan Goggxi"
                 }
             }
         }

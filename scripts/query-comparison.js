@@ -1,7 +1,7 @@
 // select * from customers where _id = 'khannedy'
 db.customers.find({
     _id: {
-        $eq: "khannedy"
+        $eq: "goggxi"
     }
 });
 

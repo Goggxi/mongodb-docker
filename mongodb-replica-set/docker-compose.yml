@@ -3,7 +3,7 @@ version: "3.5"
 services:
   mongo1:
     container_name: mongo1
-    image: mongo:4.2
+    image: mongo:4.4
     ports:
       - 37017:27017
     command: mongod --replSet my-mongo-set
@@ -11,7 +11,7 @@ services:
       - mongo_replica_set
   mongo2:
     container_name: mongo2
-    image: mongo:4.2
+    image: mongo:4.4
     ports:
       - 37018:27017
     command: mongod --replSet my-mongo-set
@@ -19,7 +19,7 @@ services:
       - mongo_replica_set
   mongo3:
     container_name: mongo3
-    image: mongo:4.2
+    image: mongo:4.4
     ports:
       - 37019:27017
     command: mongod --replSet my-mongo-set

@@ -10,7 +10,7 @@ db.customers.find({
     $expr: {
         $eq: [
             { $toUpper: "$_id" }, 
-            "KHANNEDY"
+            "GOGGXI"
         ]
     }
 });

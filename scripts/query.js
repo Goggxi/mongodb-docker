@@ -1,11 +1,11 @@
 // select *  from customers where _id = 'khannedy'
 db.customers.find({
-    _id: "khannedy"
+    _id: "goggxi"
 });
 
 // select * from customers where name = 'Eko Kurniawan Khannedy'
 db.customers.find({
-    name: "Eko Kurniawan Khannedy"
+    name: "Moh Rifkan"
 });
 
 // select * from products where price = 2000

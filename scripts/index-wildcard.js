@@ -6,24 +6,24 @@ db.customers.createIndex({
 // Insert many customers
 db.customers.insertMany([
     {
-        _id: "budi",
-        full_name: "Budi",
+        _id: "ipang",
+        full_name: "ipang",
         customFields: {
             hobby: "Gaming",
             university: "Universitas Belum Ada"
         }
     },
     {
-        _id: "joko",
-        full_name: "Joko",
+        _id: "rifkan",
+        full_name: "rifkan",
         customFields: {
             ipk: 3.2,
             university: "Universitas Belum Ada"
         }
     },
     {
-        _id: "rudi",
-        full_name: "Rudi",
+        _id: "ipat",
+        full_name: "ipat",
         customFields: {
             motherName: "Tini",
             passion: "Entepreneur"
